@@ -1,0 +1,374 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+	height:90vh;
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('images/s3.jpg');
+	background-size: cover;
+	background-position:center;
+    position: relative;
+	background-attachment: fixed;
+
+}
+
+nav{
+    display:flex ;
+    background-color: rgba(0,0,0,0.3);
+    top: 0px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    padding: 0 80px;
+    height: 80px;
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    
+}
+nav .logo{
+    font-size: 50px;
+    font-family: fantasy;
+}
+nav .logo p{
+    color: white;
+    font-family:fantasy;
+}
+nav div span{
+    color: #e74c3c;
+    font-family: fantasy;
+}
+.nav-bar a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+.nav-bar a:first-child{
+    color: #e74c3c;
+}
+.nav-bar a:hover{
+    color: #e74c3c;
+    transition: 0.4s;
+}
+nav .icon i{
+    font-size: 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    color: #ffffff;
+}
+.icon i:hover{
+      color:#e74c3c;
+      transform:scale(1.2);
+}
+.icon a{
+    margin-left: 30px;
+    padding: 10px 30px;
+    background: #e74c3c;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.icon a:hover{
+    background: white;
+    border: 1px solid #e74c3c;
+    transition: 1ms ease-in;
+    color: #0e0d0d;
+}
+.h-text {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    max-width:700px;
+}
+.h-text #camera{
+    margin-top: 30px;
+    font-size: 46px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.h-text #camera:hover{
+    transform: scale(1.2);
+}
+.h-text h1{
+    font-size: 50px;
+     margin-top: 20px;
+    font-family: cursive;
+}
+.h-text input{
+    font-size: 23px;
+    outline: none;
+    border-radius: 15px;
+    padding: 20px 15px;
+    width: 50%;
+    margin: 35px 0;
+    
+}
+.h-text button{
+    background-color: #e74c3c;
+    color: white;
+    outline: none;
+    padding: 17px 43px;
+    border-radius: 13px;
+    font-size: 26px;
+}
+
+.gallary{
+    margin-top: 100px;
+   
+}
+.gallary-feed { 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallary-feed ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    text-align: center;
+    
+ 
+}
+
+.gallary-feed ul li:hover{
+    border-radius: 8px;
+    transform: scale(1.1);
+}
+
+li.active{
+   background-color: #e74c3c;
+   color: white;
+   border-radius: 8px;
+}
+.gallary-pics{
+  width:100%;
+}
+
+.gallary-pics .pics{
+    width: 360px;
+    height: 360px;
+    float: left;
+}
+    
+
+.gallary-pics .pics img{
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+    margin:0 76px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    
+} 
+.gallary-pics .pics img:hover{
+    transform: scale(1.2);
+}
+
+.member{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.member-text h2{
+    font-family: sans-serif;
+    font-size: 45px;
+    
+}
+.member-text h2 span{
+    color: #e74c3c;
+}
+.member-text p{
+    font-size: 18px;
+    font-family: cursive;
+    color: #0c0b0b;
+}
+
+.member-info img {
+    border-radius: 70px;
+    margin: 25px 0;
+    height: 18vh;
+    width: 9%;
+    transition: 0.4s ease-in-out;
+}
+.member-info img:hover{
+    transform: scale(1.2);
+} 
+.member-info p{
+    font-family: sans-serif;
+    margin: 20px 0;
+    line-height: 2em;
+    text-align: center;
+    width: 45%;
+    padding-left: 410px;
+    transition: 0.4s ease-in-out;
+}
+.member-info p span{
+    color: #e74c3c;
+}
+.member-info p:hover{
+    transform: scale(1.2);
+}
+
+.member-name h2{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.member-social ul li{
+    display: inline-block;
+    margin: 12px;
+    width: 6%;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.member-social ul li img{
+    border-radius: 50px;
+}
+.member-social ul li:hover{
+    transform: scale(1.2);
+}
+.member-image{
+    width: 90%;
+    padding-left: 100px;
+    display: flex;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.member-image img{
+    width: 220px;
+    height: 200px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+.member-image img:hover{
+    transform: scale(1.3);
+}
+footer{
+    width: 90%;
+    margin: 30px 0;
+    background: #262626;
+    padding: 50px 100px;
+}
+.subscribe{
+    width: 90%;
+    display: flex;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    line-height: 2em;
+}
+.subscribe >div{
+    flex-basis: 50%;
+}
+.ntext{
+    text-align: right;
+}
+.subscribe label{
+    position: relative;
+}
+.subscribe .ntext input{
+    padding: 20px;
+    outline: none;
+    border-radius: 8px;
+    width: 60%;
+    font-size: 20px;
+    border: none;
+    font-family: sans-serif;
+}
+.subscribe button{
+    border: none;
+    outline: none;
+    background-color: #e74c3c;
+    font-size: 20px;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.subscribe button:hover{
+         color: rgb(10, 10, 10);
+}
+.f-contact {
+    display: flex;
+    color: #ffffff9a;
+    font-family: sans-serif;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   
+}
+.f-contact div{
+    padding: 10px;
+    width: 30%;
+}
+.f-contact h1{
+    color: #ffffff;
+    
+}
+.f-contact p{
+    margin: 15px 0;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.f-contact .p-text{
+    width: 70%;
+}
+
+.p-text a{
+    text-decoration: none;
+    color: #0c0b0b;
+    background-color: white;
+    padding: 1px;
+    border-radius: 8px;
+}
+.p-text a:hover{
+    background-color: hsl(0, 0%, 1%);
+    color: white;
+    border: 1px solid white;
+}
+
+.f-contact p:hover{
+   color: white;
+   border-bottom: 1px solid #ffffff;
+  
+}
+.footer-line{
+    width: 95%;
+    border-top: 1px solid rgba(255, 255, 255, 0.301);
+}
+.f-contact div i{
+    color: #14131386;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+    margin: 0 5px;
+}
+.f-contact div i:hover{
+    background-color: rgb(14, 13, 13);
+    color: #ffffff;
+}
